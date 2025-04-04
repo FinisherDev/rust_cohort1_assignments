@@ -22,21 +22,20 @@ const DAYS: [&str; 12] = [
     "Sixth",
     "Seventh",
     "Eighth",
-    "Nineth",
+    "Ninth",
     "Tenth",
     "Eleventh",
-    "Tewlfth"
+    "Twelfth"
 ];
 
 fn main() {
-    print!("
+    println!("
     *********************************
       The Twelve Days of Christmas. 
     *********************************
-    \n
     ");
     for i in 1..13 {
-        let items = &mut ITEMS[0..i];
+        let mut items: Vec<&str> = ITEMS[0..i].to_vec();
         items.reverse();
         println!("On the {} day of Christmas", DAYS[i-1]);
         println!("My true love gave to me");
