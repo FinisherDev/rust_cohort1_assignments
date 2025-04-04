@@ -1,16 +1,16 @@
 const ITEMS: [&str; 12] = [
     "a patridge in a pear tree.", 
-    "two turtle doves",
-    "three french hens",
-    "four calling birds",
+    "two turtle doves and",
+    "three french hens,",
+    "four calling birds,",
     "FIVE GOLDEN RINGS!!!",
-    "six geese a-laying",
-    "seven swans a-swimming",
-    "eight maids a-milking", 
-    "nine ladies dancing",
-    "ten lords a-leaping",
-    "eleven pipers piping",
-    "twelve drummers drumming"
+    "six geese a-laying,",
+    "seven swans a-swimming,",
+    "eight maids a-milking,", 
+    "nine ladies dancing,",
+    "ten lords a-leaping,",
+    "eleven pipers piping,",
+    "twelve drummers drumming,"
 ];
 
 const DAYS: [&str; 12] = [
