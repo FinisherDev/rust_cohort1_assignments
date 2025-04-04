@@ -6,7 +6,7 @@ const ITEMS: [&str; 12] = [
     "FIVE GOLDEN RINGS!!!",
     "six geese a-laying",
     "seven swans a-swimming",
-    "eight maids a-milking",
+    "eight maids a-milking", 
     "nine ladies dancing",
     "ten lords a-leaping",
     "eleven pipers piping",
@@ -46,20 +46,3 @@ fn main() {
         println!("\n");
     }
 }
-
-// Failed Experiment
-/*fn reverse(mut vec: Vec<&'static str> , arr: &[&'static str]) -> Vec<&'static str> {
-    for i in arr.len()..0 {
-        vec.push(arr[i]);   
-        println!("{:?}", vec);
-    }
-
-    return vec;
-}*/
-
-    /*
-    Useless Comment here!!
-    I am not very good at the fancy 
-    text decorations yet. One day 
-    I'll be just as good as @dl@r3m53. 
-    */
